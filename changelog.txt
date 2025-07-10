@@ -1,0 +1,21 @@
+-----v0.14-----
+- Added movement arrows to map.
+- Added transparent rendering of characters on the map.
+
+-----v0.13-----
+- Fixed bug with character rendering caused by invisible characters.
+- Implemented terrain info.
+- Fixed crashes related to missing map data.
+- Added self-updating functionality.
+
+-----v0.12-----
+- Added Change Log
+- Fixed bug where copy orders to end would add orders to subs beyond their limit
+- Optimised load times
+- Removed the program asking for admin privileges, can no longer be installed in program files however.
+- Added a function for custom exception handling.
+- UI updates. Button order changed, settings/terrain/sector info added but not yet implemented.
+- Generally improved documentation and added docstrings.
+- Added backup to generate position numbers from NVE files if Player Number List doesn't exist.
+- Fixed bug with NVE file not existing where a position is listed in Player Number List.
+- Added warnings to first setup if either above point occurs.
