@@ -1,3 +1,7 @@
+-----v0.14-----
+- Added movement arrows to map.
+- Added transparent rendering of characters on the map.
+
 -----v0.13-----
 - Fixed bug with character rendering caused by invisible characters.
 - Implemented terrain info.
