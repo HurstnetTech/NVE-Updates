@@ -1,3 +1,9 @@
+-----v0.15-----
+- Optimised map loading times.
+- Added functionality to "Copy Down Current Order" button.
+- Added functionality to "Erase Order and Move All Up" button.
+- Fixed bug caused by reading terrain types containing non-ASCII characters.
+
 -----v0.14-----
 - Added movement arrows to map.
 - Added transparent rendering of characters on the map.
