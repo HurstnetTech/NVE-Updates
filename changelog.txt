@@ -1,3 +1,12 @@
+-----v0.17-----
+- Added HurstNet and second Madhouse logos.
+- Added the ability to view messages.
+- Added the ability to view turn.
+- Added the ability to view other details.
+- Added settings menu, along with themes and window scaling options.
+- Implemented last sent label.
+- UI layout updates. Updated blank icon. Tooltips added to buttons.
+
 -----v0.16-----
 - Added the ability to write player messages.
 - Added NVE Icon.
