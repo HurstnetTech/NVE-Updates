@@ -1,3 +1,11 @@
+-----v0.18-----
+- Added main menu.
+- Added buttons to toggle display of gold/items.
+- Reworked position downloading - turns are now downloaded from the main menu, and the user prompted to download if they try to load a position with a new turn available.
+- Massively optimised map initial loading time, memory usage and rendering speed.
+- Fixed bug reading data for characters who have gone too long without food/sleep.
+- Fixed crash caused by incorrectly saved data for newly created maps.
+
 -----v0.17-----
 - Added HurstNet and second Madhouse logos.
 - Added the ability to view messages.
