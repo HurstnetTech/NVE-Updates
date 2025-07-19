@@ -1,3 +1,9 @@
+--v0.19-alpha--
+- Added buttons to toggle display of characters/shaders.
+- Minor UI updates.
+- Turns are now automatically downloaded on initial import.
+- Fixed several crashes caused by locations with no map data.
+
 -----v0.18-----
 - Added main menu.
 - Added buttons to toggle display of gold/items.
@@ -40,13 +46,13 @@
 - Fixed crashes related to missing map data.
 
 -----v0.12-----
-- Added Change Log
+- Added Change Log.
 - Added a function for custom exception handling.
 - Added backup to generate position numbers from NVE files if Player Number List doesn't exist.
 - Fixed bug with NVE file not existing where a position is listed in Player Number List.
 - Added warnings to first setup if either above point occurs.
 - UI updates. Button order changed, settings/terrain/sector info added but not yet implemented.
-- Optimised load times
+- Optimised load times.
 - Removed the program asking for admin privileges, can no longer be installed in program files however.
 - Generally improved documentation and added docstrings.
-- Fixed bug where copy orders to end would add orders to subs beyond their limit
+- Fixed bug where copy orders to end would add orders to subs beyond their limit.

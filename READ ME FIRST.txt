@@ -1,0 +1,108 @@
+How To Use The Nexus Viewing Engine 2.0 (NVE)
+---------------------------------------------
+Please note: The NVE program is being tested.  There will be bugs.  Strange things will happen.  If you don't tell us about them, we wont know!  Please report any bugs you find at https://hurstnet.tech/Helpdesk.  Thanks.
+
+
+INSTALLING THE PROGRAM
+----------------------
+If you are reading this you have already installed the program from the installer :)
+On launch, the NVE will always check for updates and prompt you to install the updates if any are found.  
+
+
+FIRST OF ALL
+------------
+Currently NVE 2.0 cannot connect to the Madhouse servers.  You must use the original NVE to download your turns and then use the Download NVE button in NVE 2.0 to import them from the old NVE and the Build Orders button will send your order files back to the old NVE.  You must then use the Build Orders button on the old NVE to actually send your orders to Madhouse.  This is in the process of being addressed and we expect to be able to connect directly very soon.
+
+
+IF YOU ARE USING A FIREWALL OR OTHER SECURITY SOFTWARE
+------------------------------------------------------
+If you receive any warnings relating to the NVE please add the program to your allow list/whitelist.  There is no virus/spyware/malware but false positives can occur so just Trust it and all will be well.
+
+
+OPENING THE PROGRAM
+-------------------
+Run the file called nve.exe and you will see the opening screen which allows you to pick a position.  This lists the different positions you can explore.  Each position will also inform you whether orders have been sent this turn, and if so when.  Selecting a position will highlight it and allow you to use the following buttons:
+
+Download NVE.  This will currently import your latest turn file from the old NVE.  Ultimately it will directly download your turn from the Madhouse servers once that functionality has been implemented.
+View NVE. This will open your turn to be viewed and orders written.
+Download PDF.  NOT CURRENTLY ACTIVE.  This will download a PDF of your turn from the Madhouse servers.
+View PDF.  NOT CURRENTLY ACTIVE.  This will open the PDF for viewing.  
+Move Up & Move Down.  NOT CURRENTLY ACTIVE.  These allow you to re-order your positions.
+
+
+USING THE NVE MAIN SCREEN
+-------------------------
+Okay, there's a LOT of stuff on this screen.  Its daunting to look at.  Don't panic, it'll soon be second-nature.
+
+
+LAST CHARACTER & NEXT CHARACTER BUTTONS
+---------------------------------------
+By default, the first character in your position is shown first of all.  You can scroll through your position's characters using the "Last Character" and "Next Character" buttons in the top left of the screen.
+
+
+VIEW TURN BUTTON
+----------------
+This button lets you view the text portion of your latest turn.  This is all in text format and can be cut and pasted in and out for your enjoyment and use.
+
+
+OTHER DETAILS BUTTON
+--------------------
+This button lets you view other details of your most recent turn which are not covered elsewhere, such as character skills.
+
+
+WRITE MESSAGES BUTTON
+---------------------
+When you press the button a pop-up window where you can write a message which will appear in the "Player Noticeboard" section of your next turn (assuming you use the .NVE to send your orders.)  Simply write your message and click SAVE.
+
+
+VIEW MESSAGES BUTTON
+--------------------
+This button lets you view the messages on the Player Noticeboard that were sent on the current turn.  
+
+
+CHANGE POSITION NUMBER
+----------------------
+This button allows you to switch to a different position without having to go back to the main menu first.
+
+
+ITEMS BUTTON
+------------
+NOT CURRENTLY ACTIVE. This button takes you to the item screen which lets you scroll through and view all the items the NVE has stored information about so far.  (The NVE automatically stores information when you use the INVESTIGATE order.)  This screen is fairly self-explanatory.  It also allows you to change the text that has been stored and save your new version (in case you discover more, or disagree with what the text says due to game experience.)  If in doubt, don't click the save button at all. <grin>
+
+
+CREATURES BUTTON
+----------------
+NOT CURRENTLY ACTIVE. This is just like the View Items button, but looks at Character Types you've discovered in the game. The NVE saves the result of VIEW orders here.
+If you click on a creature icon on the map and then click the VIEW CREATURES button, you will automatically go to the information for that creature that is currently stored.
+
+
+TERRAIN BUTTON
+--------------
+NOT CURRENTLY ACTIVE. This is the same as the previous two buttons but covers TERRAIN you have information about.  The system does not auto-store orders here, this is information that you have pasted in from results in your turn if you wish to store information about terrain.  In order to use this button you must first click on a terrain square on the map to tell the computer what terrain you are interested in, or the button will do nothing.
+
+
+SETTINGS BUTTON
+---------------
+Allows you to adjust various program settings such as Theme and window scaling in case you are having difficulties in viewing the NVE on your monitor. 
+
+
+EXIT TO MAIN MENU BUTTON
+------------------------
+Click this button to leave the Main Editor and return to the game select screen, for instance if you want to quit the program or select a different position to view.
+
+
+CHARACTER ORDERS
+----------------
+You can type orders for a character here.  You'll notice a bunch of buttons down the right-hand side of the order entry boxes.  Hover your mouse over each button for a pop-up description of what each button does.  All these buttons perform functions which assist in order entry in one way or another.
+
+
+BUILD ORDERS BUTTON
+-------------------
+This builds your order file.  This button should not be clicked until you have complete ALL the character orders for this position.  Once you have done so and are satisfied they are right, click this button.  
+Currently you must then use the old NVE to send the orders to Madhouse.
+
+
+THE MAP
+-------
+You can zoom in and out of the map using the wheel on a wheel-mouse. 
+To the left of the map are buttons which allow you to adjust the map display.  Hover your mouse over each button for a pop-up description of what each button does.
