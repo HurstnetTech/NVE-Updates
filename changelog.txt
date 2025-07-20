@@ -1,3 +1,10 @@
+--v0.20-alpha--
+- Movement orders now display their cost next to the character's movement rate.
+- Entering a letter in order column 2/3 now automatically inputs it into the next row.
+- Backspace will now navigate to the previous order entry if the current one is empty.
+- Added a confirmation to load ALL last orders.
+- Fixed bug where the text for Orders Last Sent would sometimes show in red for a position with sent orders.
+
 --v0.19-alpha--
 - Added buttons to toggle display of characters/shaders.
 - Minor UI updates.
