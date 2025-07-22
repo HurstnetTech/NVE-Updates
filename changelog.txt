@@ -1,3 +1,7 @@
+--v0.21-alpha--
+- Added art to main menu.
+- The madhouse banners now link to www.madcentral.co.uk.
+
 --v0.20-alpha--
 - Movement orders now display their cost next to the character's movement rate.
 - Entering a letter in order column 2/3 now automatically inputs it into the next row.
