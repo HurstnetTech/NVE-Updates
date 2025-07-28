@@ -1,3 +1,11 @@
+--v0.22-alpha--
+- Added items library window, including automatic import of data from old NVE.
+- Added item tooltips to icons in equipment and backpack.
+- Prevented multiple of the same popup window being opened at the same time.
+- Fixed bug where the move rate label would sometimes remain red when transitioning characters.
+- Fixed bug where characters with limited orders could enter an additional order.
+- Fixed crash caused by characters with missing map data.
+
 --v0.21-alpha--
 - Added art to main menu.
 - The madhouse banners now link to www.madcentral.co.uk.
