@@ -1,0 +1,48 @@
+ORDER	SLOT1	SLOT2	SLOT3	NOTES
+Equip Item	E	Slot		Equips item from chosen backpack slot number
+
+
+THE EQUIP ORDER
+
+Using Your Gear
+Anything you buy, pick-up or otherwise acquire in the game will be placed into your backpack.  If they are items that can be worn, you can choose to put them on (activating any bonuses they give you) by using the Equip Order.
+The order is written like this:-
+
+___E___  __<Backpack Slot ID>__  ____
+
+The second slot contains the ID number of the backpack slot where the item you want to equip is stored.  You do NOT need to write a number to show where the item is being equipped to, since all items in the game can only go in one slot... and the computer already knows what it is!
+
+Already Something Equipped?
+If there is already an item in the body slot which you are trying to equip something to, that's no problem!  The system will automatically de-equip that item and replace it with the new one you have ordered it to equip, placing the old one into the backpack.  Only two things can cause you a problem with this.  The first is if the item that is already equipped is a non-removable item (usually cursed), which will cause the order to fail.  The second is if there is no room in your backpack for the item you are removing, which will cause it to fall to the ground.
+
+
+Format: E <backpack slot> <backpack slot>
+E # #
+
+This is a variant of the E order which is detected when BOTH the second and third slot have a number in them. In this instance the order causes the entire contents of the two backpack slots to swap with one another. Useful for arranging your valuable or rare items near the top of the pack, in case of death. Or just for personal aesthetic reasons.
+
+
+Equip Things Fast!
+When you start a character in the game it is important to remember to equip everything you can right away!  Walking into a roomful of Orcs while your armour and sword are still stored in your backpack is not a smart move!  
+
+
+Non-Equippable Items
+Some items (quite a few, actually) can't be equipped or do not need to be equipped to be used.  Enchanter's Scrolls, Necromancer's Parchments and various special items are all examples of this.  To find out about an item you should investigate it.
+
+Cursed Items!
+You should be aware, when equipping items, that there are cursed items in the game!  If you equip a cursed item it will magically fix in place and be impossible to remove except in very special circumstances.  When you buy items from an official Trader or Market place you are safe from cursed items.  But while adventuring, if you find something that you've not heard of before that sounds weird, it's a good idea to investigate it and/or diplomacise with other players before equipping it... just in case!
+
+Equipment Limitations
+Remember, some characters are unable to use certain sorts of equipment.  Rogues and Enchanters, for instance, couldn't equip a suit of plate mail.  In the same way, certain equipment requires minimum statistics, a certain skill or some other pre-requisite to enable you to equip it.  All these things can be discovered by reading the section on character types in this guide and by investigating the item in question.
+
+Examples
+___E___     __5__     _____
+ This order would equip the item in Backpack slot No.5
+
+___E___     _____     __7__
+ This order would fail.  The backpack slot number should be in the 2nd column!
+
+___E___     __5__     __7__
+This order would equip the item in Backpack slot No.5.  The system will ignore the unnecessary number in the third column.
+
+In the viewer, right clicking on a back pack slot will issue an equip order on that item.

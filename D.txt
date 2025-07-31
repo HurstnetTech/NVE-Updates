@@ -1,0 +1,43 @@
+ORDER		SLOT1	SLOT2	SLOT3	NOTES
+Drop Equipped Item	D	Slot		Drops item from chosen equip slot number to the floor
+Drop Item from Backpack	D		Slot	Drops item from chosen backpack slot number to the floor
+Destroy Item		D	100	Slot	Destroys all items in chosen backpack slot number
+
+
+Getting Rid Of Stuff
+
+When you decide you don't want something any more there are two orders which are very useful to you.  The 'Drop' order is used when you want to just throw something away completely.  The 'Remove' order is used when you want to unequip an item, putting it back into your backpack.
+
+Dropping It!
+
+To simply throw an item you don't want anymore onto the ground use the 'Drop' order.  The format is as follows:-
+
+_D_  _<Body Slot ID>_  _<Backpack Slot ID>_
+
+When doing a drop you should issue a Body Slot ID in the second column if you are dropping something you are equipped with, or a backpack slot ID in the third column if you are dropping something from your backpack... but not *both*.  It's one of the other. Only *one* item is dropped per order.
+
+Format: D 100 <backpack slot>
+This order will destroy (i.e. erase from the game) all items in the indicated backpack slot. The flavor string looks like a normal drop order, but nothing is dropped into the square the character is standing in. This is for getting rid of items that magic traders won’t buy, such as worn horseshoes, or when you want an extra backpack slot because you discovered something really cool, but don’t want to spend the time dropping the 20 goblin eye teeth you have collected and there isn’t a magic trader close enough to sell them at.
+
+No-Drop Items
+
+Similarly, some items cannot be dropped, for most of the same reasons as the ones that can't be de-equipped.  Guild items are usually impossible to drop though, while most of them can be removed.  In order to get rid of guild items you need to resign from the guild.  To do that you should contact your Guild Leader, who may or may not let you leave (depending on the guild.)  You should *not* contact your GM about guild-related matters though.  If the guild leader chooses to let you leave (or throw you out) the items will disappear between turns.  If not... you're stuck in the guild!
+
+Things You Have Dropped
+
+When you Drop something it will go to the floor and will then be possible for other characters to pick up.  (Or for you to pick up again, if you wish.)  Of course, monsters pick stuff up sometimes so you can't count on it being there forever...
+
+If You Die...
+
+All items you are carrying will be dropped if you are reduced to less than 'zero' current health at the end of the turn.  However, items are not dropped at the end of the turn, they are dropped at the beginning of the *next turn*, just before order phase 1.  Players who go to the square of a dead character and issue a Pick-Up order there, ready for the items to appear, are robbing the dead.  (A fairly common practice for adventurers, sadly, and entirely legal.)
+
+When a summoned creature's time runs out they do not actually 'die', they merely return to whence they came.. taking anything they were carrying with them!  
+
+
+ Examples
+___D___     _10__    ______
+This order will cause you to drop the item in Body Slot 10 (finger)
+
+___D___     _____     __9___
+This order will cause you to drop *one* item from Backpack Slot 9 
+

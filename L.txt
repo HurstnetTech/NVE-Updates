@@ -1,0 +1,56 @@
+ORDER		SLOT1	SLOT2	SLOT3	NOTES
+Look Around		L			Look around current area and reveal additional area info	
+Up/Down stairs	L	2		Ascend or Descend stairs as applicable
+
+
+THE LOOK ORDER
+
+In Dungeons
+
+A great many of the rooms in a Dungeon, Castle or other similar area have *individual* descriptions for them.  (Not all of them, but a *lot* of them).  When you look at your turn-map all you see is the generic layout; where the doors, walls and open space are.  To actually *see* what the room looks like you need to issue the 'Look' order.  There are literally tens of thousands of different special locations in the game and it's very important, if you want to play the game well, that you issue a 'Look' order in each new area you enter.
+
+But What Is An Area?
+
+Working out what a new area actually *is* so you know when to issue a Look order is an easy trick.  The single-square-wide stretches in a Dungeon are 'corridors' (there's not usually any need to do a look order in them.)  Anything wider than a single square (except the very occasional double-width corridors) is a new 'area', or 'room' if you prefer.  Each new room you enter will often have its own 'look' description.  There is no need to do more than one Look order per room though... doing one on every square would simply get the same info again and again!
+
+On The Surface
+
+On the surface the Look order plays a slightly different role.  It can give you more information about the area you are in (sometimes) or maybe it will tell you which area of the Land you are in.   If you are standing on a special feature (the graphic will be something different to a plain terrain square) the Look Order may give you information about it.
+
+But Why Should I Bother?
+
+Some players do play the game without ever issuing a Look order.  These are people who simply want to see monsters and fight them!  This is generally a bit crazy, since lots of important information is hidden in the Look description including storyline hooks, background information and valuable game effects!
+
+
+Writing the Look Order
+
+In order to tell your character to take a look around the area they are in your simply write an 'L'.  Nothing else!  Like this:-
+
+__L__   ____   ____                 Easy as that!
+
+Special Look Orders
+
+Quite often when you look around, the description of the area you are given will offer you some additional sources of enquiry.  For instance you will be told that 
+''I am standing in a dark room.  At the center of the room is a glittering pond full of light blue water.  To drink from the pool issue the order 'L 2'." 
+In these special instances you can (the following turn) issue the extra order, or not, as you prefer.  Sometimes these special orders are helpful, sometimes very dangerous, or sometimes simply give further information.  It is possible to take damage from the results of these special look orders, so you should consider carefully what you choose to do.
+
+What It Doesn't Do!
+
+The Look Order is only for giving you 'static' text descriptions of the room and its furnishings, plus special things you can do there.  It doesn't talk about creatures or characters in the area at all, since those things change all the time.  The information about what or who inhabits the room can be found on the 'other characters I can see' section of your turnsheet.  There is no need to issue the Look order to find it out... you do so automatically.
+
+The Look order doesn't change either, although sometimes what you see will depend on your character class, on one of your statistics, or on certain other variable elements of the game.  If you visit a room again later it will still have the same description unless (very rarely) some major in-game event has altered the area.
+
+Examples
+
+___L___     ______     ________
+This order would instruct your character to Look Around his/her current location.
+
+
+___L___     ___2__     ________
+
+___L___     ___99__     ________
+
+___L___     ___13__     ________
+
+These are special look orders which would do different things depending on where you issued them.  The Look Description you gain from the initial  'L' order would give you full information on what special orders (if any) are available.  The second column could have any number in it, depending on what you had been advised was the correct one to use.  If there is no special look orders available you will be given an error report.
+ 

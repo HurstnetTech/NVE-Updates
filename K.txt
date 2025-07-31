@@ -1,0 +1,13 @@
+Note that this does not work.
+
+
+Stance
+
+K <stance>
+
+You can change your stance in the game to kneeling, lying or standing.
+K 0 Stand.
+K 1 Kneel.
+K 2 Lie.
+
+Whilst kneeling or lying, you will gain better accuracy and defense, lying offering the best bonuses. However your movement will be impeded, whilst kneeling, movement costs one extra beyond the normal cost to move into any square, and whilst lying two extra.

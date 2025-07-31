@@ -1,0 +1,33 @@
+ORDER		SLOT1	SLOT2	SLOT3	NOTES
+Set Overwatch		O	TargetID		Adds or removes a character to your overwatch list
+List Overwatches	O			Lists your currently set overwatch targets
+
+
+THE OVERWATCH ORDER
+
+Most of the combat in DungeonWorld is achieved by analysing your turn and making guesses as to what will happen.  You move your characters, write attack orders, change weapons etc. all while guessing what your enemies will be doing and taking those supposed movements into account when writing your orders.  But what happens when it goes horribly wrong?
+
+Monsters work on a whole bunch of intelligent patterns of behaviour.  You could write all your actions supposing that the monsters will try and grab the pile of gold in the corner, but instead they all charge your timid enchanter, because they just happen to dislike mages.  (Perhaps they've been on the receiving end of one too many fire sprites?)  
+
+It can be rather annoying to see your much-loved magic-user obliterated by Orcs while she is standing right next to your three big fighters, who ignore her death while peppering that pesky goblin with arrows.  Couldn't they hear her screams?  Why did they just let her die?  The Overwatch order exists to give your characters a chance to defend other characters and prevent this unpleasant situation.  However, it must be used carefully!   Make sure you have a good grasp of how the combat system works and have read this page entirely before attempting it or you could find that your situation is worse than before!
+
+How To Overwatch
+Every character in the game has up to five 'Overwatch' settings.  This means they can be considered as being prepared to guard up to five characters at any given time.  If you try and set any more than five the order will fail.  The format for using the Overwatch order is:-
+
+_O_   _<Target ID No.>_   ______
+
+The Target ID. is the character number of the character that you wish to guard.
+
+There is no range requirements.  You can set yourself to 'watch' any character in the same module as you.  (But there's not a lot of point setting it up for some character on the other side of the world!)
+
+If you want to stop watching a character, issuing the same order targetting them again will 'turn the setting off' for them.
+ 
+What It Actually Does!
+The result of setting up an Overwatch is that your character will be considered to be defending that character from then on, until you issue the SAME order again to cancel the protection.  This means that IF the protected character is attacked, the guarding character will take it personally!  They will react as if THEY had been attacked, getting a reply attack exactly as if they had been the target of the order.  For this to be effective they must be within range of the attacker with their currently equipped weapon.
+
+The most effective form of guard is a character with a bow, who stays standing next to or very near to the person they are protecting.  Remember, ALL the Overwatch does give you a reply attack if the character you are guarding is attacked.  The guarded character does also still get their usual reply attack as well.  The Overwatch order will NEVER cause you to move, so if you aren't close enough to get a reply attack at the time, your character wont be effective.
+
+Things To Look Out For!
+The danger of the Overwatch order is that when you are guarding somebody and do a reply attack in response to an attack upon the person you are guarding, that DOES still use up one of your reply attacks for that phase.  Since most characters get only two reply attacks per phase, this can be dangerous for the guard.  If you have used up all your reply attacks in a phase defending somebody else, you cannot respond to attacks upon YOU!
+
+Your character can Overwatch up to five characters at a time.  Remember that when you reply on behalf of somebody you are watching that uses one of your reply attacks for that phase!

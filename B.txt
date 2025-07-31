@@ -1,0 +1,28 @@
+ORDER		SLOT1	SLOT2	SLOT3	NOTES
+Buy Sharpen Weapon Service	B	500		Sharpen blunt weapons at courtyard/trader. Cost: 3 GPs
+Buy Item		B	BuyCode		Buys item at current cost from courtyard/trader
+
+
+HOW TO BUY THINGS
+
+To Buy Stuff from any sort of general trader you use the generic 'Buy' order.  The format is as follows:-
+
+__B__     __<Buy Code>__     _____
+
+The 'buy code' mentioned above is a unique ID that things you can purchase on general supply all have.   You will be told what the buy codes are for things that are available when you do a LOOK order while standing on the Trader (or other trade post location) square.
+One At A Time
+
+Each Buy Order you do buys *one* of the items you specify and charges you for it.  If you don't have enough gold pieces to buy the item your order will fail.  There is *no* way to buy multiple items with one order (except in a couple of special circumstances which will be explained if you come across them in-game).  If you want to buy two or more of something you need to issue two or more buy orders.  
+
+Which Backpack Slot Will It Go To?
+
+Items you buy are placed immediately into your backpack in the first available space.  As you become familiar with the game you will discover that its usually quite easy to work out which slot an item will go to when picked up or bought.
+
+For instance, if you are an enchanter with scrolls in your first four slots and nothing in your fifth slot, if you buy a dagger... it will go to slot (5) in your backpack.  If you buy a scroll though, it will go to the slot with the scrolls of the same type in it (If there's space!)
+
+Examples
+___B___     ______     ________
+This order would fail!  You have not specified a 'Buy Code'.
+
+___B___     __1___     ________
+This order would buy an item type 1, if you had the money to pay for it and were in an appropriate place to buy that sort of item.

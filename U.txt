@@ -1,0 +1,5 @@
+ORDER	SLOT1	SLOT2	SLOT3	NOTES
+Inspire	U	100	TargetID	Bard Ability.  Inspire ally with music
+Demoralise	U	200	TargetID	Bard Ability.  Demoralise enemy with music
+Soothe	U	300	TargetID	Bard Ability.  Soothe target character with music
+Unlock	U	1	Direction	Rogue Ability.  try to pick locked door in chosen direction

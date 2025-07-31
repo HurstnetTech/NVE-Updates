@@ -1,0 +1,39 @@
+ORDER	SLOT1	SLOT2	SLOT3	NOTES
+H	Code			Set New Hostility.  1=Passive.  2=Neutral.  3=Aggressive
+
+
+THE HOSTILITY SETTING
+
+Hostility
+Every character has a Hostility Setting, which reflects how they will react upon encountering *other* characters.  There are three different possible settings for your Hostility, but generally only one is ever used except in the most unusual of circumstances, or when playing special positions.  The settings are: 
+
+(1) Passive
+(2) Neutral  (this is the normal setting)
+(3) Hostile
+
+Adventurers will almost always be neutral as this is the most functional and suitable setting for them.  
+
+How Combat Works
+In order to understand the Hostility Settings and their function within the game you need to know how combat works.  This is covered in more depth elsewhere in the rules, but essentially, every single time you issue a move order, your character will (automatically) look around for an enemy within range of their currently equipped weapon.  If there is one they will attack that enemy.  If there is more than one they will randomly choose a target and attack them.  This takes no orders at all and is called a 'Hostility Attack'.  Without ever issuing any attack orders at all you can have quite an active combat-life through your Hostility Attacks alone.  But how does your character decide who is and who isn't an enemy for the purposes of Hostility Attacks?  Through correct application of the Hostility Setting, that's how!
+
+Passive
+If you set your hostility to 'Passive' (1) you will be instructing your character not to view anybody or anything as an enemy!  No monster, no character, nobody!  They will never do *any* automatic hostility attacks at all!  They will still respond to attacks upon themselves with their reply attacks in self-defence but will not initiate any combat.  This setting is used when you are escaping from a dangerous situation and do not want attention from the bad guys!  Other than as a getaway ploy, this setting is seldom used.  Even as a getaway it's not normally necessary, since the Fear Factor tends to handle the problem anyway.
+
+Neutral
+By setting your Hostility to Neutral (2) you will be telling your character to consider adventurers as allies and monsters or evil non-player-characters (NPCs) as enemies.  This is the setting you start the game with and is the normal setting to use for most of your adventuring career.  
+WARNING:- Do not change from this setting unless you are an experienced player and know exactly what the results will be... it can be a serious mistake otherwise!  If you ignore this warning and get yourself into deep trouble it will be nobody's fault but your own!
+
+Hostile
+This very-dangerous setting instructs your character to consider *everybody* as an enemy, unless they are controlled by the same player-number as them.  So, all other adventurers not controlled by you in your current position, all monsters, absolutely everybody will be considered an enemy!  As a rule of thumb:- Don't Use This Setting unless you know *exactly* what you are doing.
+
+How To Set Your Hostility
+Setting Hostility is achieved by the 'H' order as follows:-
+
+_H_  __1__  _____  to set as 'passive'
+
+_H_  __2__  _____  to set as 'neutral'
+
+_H_  __3__  _____  to set as 'hostile'
+
+
+

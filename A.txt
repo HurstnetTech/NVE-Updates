@@ -1,0 +1,156 @@
+ORDER	SLOT1	SLOT2	SLOT3	NOTES
+Attack	A			Attack random enemy in range (no movement)
+Attack (Brawl)	A	TargetID		Harmless brawl, no weapons are used, no damage is done
+
+
+
+COMBAT BASICS
+
+The Combat System in DungeonWorld  is very simple, but very powerful.  There are many tricks to learn to get the most out of the various orders and methods available to you for combat.  It is a learning process.  But the most basic and straightforward method of initiating combat is using the Attack order.
+
+How To Issue The Attack Order
+
+Telling the computer you want your character to attack another character is done by using the first and second order columns.  In the second column you specify *who* you want to attack, by writing their Character ID No.  
+
+The format is as follows:-
+
+__A__     _<Target Character ID>_     _____
+
+The third column is not used for the standard attack order.  Your character will attempt to attack the character who's ID you wrote in the second column.  
+
+This order does not move your character in any way.  It simply attempts an attack from the square you are standing in with your currently equipped weapon.  If you are out of range of the target character your order will fail.  If the character is dead at the point you try and attack them the order will report that.  If the character has moved out of your field of vision, is hiding behind something, or is tucked into a corner, you will not be able to attack them.
+  
+  Weapon Types       	Range
+  Bare Hands            Own Square Only
+  Daggers/Knives     	Own Square Only
+  Melee Weapons     	Own Square + Adjacent
+  Missile Weapons    	Varies
+  Spells/Specials       Varies
+
+Bare Hands and Knives
+Bare Hands, Daggers and other small weapons can only attack characters who are standing in the *same square* as the attacking character.  It's a common mistake to forget that *monsters move too*.  So although they may start the turn in your square, they sometimes can and will move out of it to get out of range of your weapon! 
+
+Melee and Missile Weapons
+Other Melee Weapons can hit the attacking characters own square and all the adjacent squares to it.
+
+Missile Weapons are very effective in DungeonWorld.  They don't do much damage usually, but have long ranges which can whittle down opponents before they reach you, or catch them as they retreat.  Monsters can and do hide behind things to get out of the line-of-fire of missile weapons (and spells) and will often duck into and around corners.
+
+To Use Or Not To Use
+
+The normal Attack order is not always the best order to use for combat.  There are various ways of attacking enemies explained in this rulebook, but only through experience of play can you work out the best way to attack in any given situation.
+
+As a rule of thumb, the Attack order is most useful when you want to take shots at an enemy without moving closer to do so.  It is most often used with missile weapons by 'back line' adventurers.  
+
+The Straight ''A'' Order
+
+Another powerful way of using the normal Attack order is just to write ''A'' and not put *any* target in the second column.  This instructs your character to choose a random enemy within range and take a shot at them.  Useful in complicated situations where you don't know who will be alive or who will be near you.
+
+What Is A Character?
+
+Virtually any sort of individual you meet in the game is a character; monsters and adventurers too!  All the characters you can see on your map are listed on your turnsheet under the headings 'Other Characters Present' (the ones in your square) and 'Other Characters I Can See' (the ones on the rest of your visible map.)  Character ID Numbers, which are needed for the attack order, are shown after their names in brackets.
+
+
+Examples
+___A___     _1226_     __________ 
+This order would try and attack character 1226, if within range of attacking weapon.
+
+___A___     _77_     __________
+This order would try and attack character 77, if within range of attacking weapon.
+
+___A___     _505_     __________
+This order would try and attack character 505, if within range of attacking weapon.
+
+___A___     _____     __________
+This order would try and attack a random enemy within range.
+
+
+THE ATTACK ORDER
+
+When To Use The Order?
+As you can probably imagine the 'Attack' order is a popular one in DungeonWorld since its purpose is to cause your character to initiate combat on another character.  However, it is not as commonly used as you might first suppose because there are a number of other ways to get into a fight in the game and this is not always the best method to use.  The DungeonWorld combat system is simple to use, but fairly complicated in application and the trick to doing well is learning when to do which sorts of orders.  Although these rules try to help you understand the concept, there are many tricks and clever ploys to using the Combat System and the only real way to learn is by playing!
+
+What Does The Order Do?
+When you issue an attack order you are instructing your character to attack another character using their currently equipped weapon as long as the character is within range when you attempt the attack.  If you are using a bow then you'll fire an arrow at them.  If you are using a scimitar you'll slash at them.  If you have a poisoned dagger you'll try to stick it in their back.  The order only causes *ONE SINGLE ATTACK*, it does not initiate a long and drawn-out fight with your target.  If you wish to attack a character (remember, monsters are counted as characters too, we aren't talking about other adventurers here) multiple times, you have to issue multiple attack orders.
+
+But When Do I Stop?
+New Players often wonder how many attack orders they need to write in order to 'kill' a monster.  The truth of the matter is that advanced players wonder that too!  You get better at judging after you've fought a few things and start to get an idea how tough things are... but guessing the correct amount of attack orders is part of the game and an important part of learning to use the combat system. 
+
+How To Issue The Attack Order
+To Attack another character/monster you simply need to find their ID number (in the ''Other Characters I Can See'' section of your turnsheet... it's the number in brackets after their name!) and write the order in the following format:-
+
+_A_  _<ID Number>_  _____
+
+Things To Watch For!
+Careless use of the attack order will result in a whole lot of ''I could not attack the target'' results if you forget to check a few simple things.  (1)  Is the target within range of your equipped weapon when you issued the order?  (2)  Are they still alive?  (3)  Do you have line-of-sight (for missile weapons) on the target?  (4)  Is the target still within your field of vision (the map you see on your turn).
+
+It is also important to note that the Attack order does not MOVE your character AT ALL.  If you are just one square out of range of the monster you are attacking your attack orders will still all fail... your character *will not* choose to take the step closer that is needed.  If you want your character to move towards and attack monsters there are other orders to do this.
+
+The Other Uses
+The Attack order does have a couple of other uses beyond the standard one.  Both of these are a little harder to explain.  You may find that you won't fully grasp some elements of this until you have actually played for a while, but don't let that worry you!  Give it a go and you'll quickly work out what is effective and what isn't!
+
+ 
+Attack A Nearby Enemy!
+The first and most common alternative use of the attack order is achieved simply by writing an 'A' in the first column without putting *any* target.  Like this:-
+
+___A___  _______  _______
+
+This order is for times when you aren't sure who will be near you when you issue the order.  It instructs your character to attack *anybody* who is within range of your currently equipped weapon (one attack only).  
+
+If there are multiple enemies within range at the time you issue the order it will choose one randomly from the crowd (not necessarily the nearest one, it will be a totally random choice.)  Just who an 'enemy' is for the purposes of this order is set by your current hostility choice (see the page entitled 'hostility settings').
+
+No Movement!
+As with the other use of the Attack order the alternative use of the Attack order does not move your character anywhere.  They will simply stand on the spot and attack enemies who stray within range.  
+
+Using Several 'A' Orders
+If you are standing in the midst of a large battle with enemies everywhere and you issue a series of straight 'A' orders without targets your character will whirl from side to side attacking different enemies who stray within range.  If your character is equipped with a bow or a fire sprite or some other longer-ranged weapon this can be very effective indeed, although it is still useful for a barbarian with his huge axe to cut a mass of small monsters to ribbons too.  Even if the monsters don't seem to be within range of you on your turnsheet you should remember that monsters move every phase too... quite often towards you with the idea of skewering you... so if you can guess their movements the 'A' orders will still work fine. 
+
+Setting Your 'Final Target'
+The other use of the 'A' order is done as a side-effect of your issuing normal attack orders.  The system *remembers* the last character you issued an 'A' order with an actual target ID on.  This comes into play when you use the 'Move and Attack' order (explained elsewhere).  The computer considers your last targeted 'Attack' order as your ultimate target in the present situation and any 'Move and Attack' orders will head steadily towards that character.  This is more clearly explained on the 'Move and Attack' page and is mentioned here only for completeness.  It has no bearing on standard attack orders at all.
+
+Reply Attacks
+As with all attacks you do on other characters/monsters, the character you attack gets an automatic reply attack (subject to range/vision in exactly the same way you are).  So if you swing at an Orc, it'll get a swing back immediately afterwards.  If you fire an arrow at an Orc from across the room then it probably won't be able to attack back (unless it has a bow or other missile weapon) but it may well choose to walk across the room so it's close enough to give you a whack!  Don't assume you are safe just because you start off out of range.  Monsters move too!
+
+
+Examples
+___A___     _999__     ________ 
+This order would instruct your character to attack character ID. 999  *once*.
+
+___A___     _1315_     ________
+
+___A___     ______     ________
+This order would attack a random nearby enemy within range  *once*. You will not move.
+
+
+
+THE BRAWL ORDER
+
+Rough & Tumble
+Brawling is an order that is used primarily for roleplay.  It was introduced as a simulation for the kind of massive tavern and street fights that any self-respecting adventurers gets involved with at one time or another in fantasy novels, films and the like.  The results of Brawling do not cause any real damage, it cannot ever kill the PCs involved or even harm any more than their pride.
+
+When issuing an order for your character to Brawl you use the letter "A" just like you would a real attack.  The big different is that there is nothing put in the center column.  Only the first and last column are used.  It is the fact that the second column is empty and the target ID number in the third column which tells the computer it is a Brawl, rather than a real attack, that you want to do.
+
+_A_    _____   _<Target ID No.>_
+
+You can only Brawl a character who is in the same, or an adjacent square as you at the time you issue the order.  If that character has moved out of this range earlier in the turn, the Brawl order will simply fail.  Consequently, it is most useful for instances where two players have agreed to a brawl to find out who is the toughest in a fistfight.  
+
+Brawl Mechanics
+When Brawling the characters do not use weapons, even if they are equipped.  Nor do any magic items which reduce damage or negate 'normal' damage types function for the period of the brawl.  They do not do real damage of any kind, but rather they score damage against an invisible 'brawl' health which is calculated from various statistics and skills they have.  The brawl lasts until one of the fighters is knocked senseless and then ends.  Brawling has no real in-game effect beyond roleplay and so, even if a character has just been knocked out in a brawl they can still defend and attack monsters as if nothing had happened.
+
+Something To Think About
+Possibly one of the most potentially dangerous mistakes you could make in the game would be to try and do a brawl order but write it incorrectly.  For instance, if you wrote the target ID number in the second, instead of the third column, that could be a major disaster.  The computer would action an attack order instead of a Brawl order, doing real damage.  If this resulted in the death of the target character then your attacking character would become an Outlaw, as per the Laws of the Land.  It would be no good saying "but I used the wrong order!", because your character did still commit murder and the mistake was yours.  It is important that players are aware of this potential danger.  The Outlaw status is very difficult to survive without careful planning.
+
+Brawling Monsters
+The Brawl order is intended for use between PCs, simply for a bit of fun.  It is entirely possible to Brawl with monsters, but its a pretty silly thing to do and really not the reason the Brawl order was invented.  After all, while you are Brawling the monster (and doing no damage to it) the monster is likely to be pounding on your head with its largest and most lethal weapon.
+
+Examples
+___A___     ____     __1621__
+ This order would cause your character to have a brawl with the character with ID number 1621.
+
+___A___     ____     __9887__
+ This order would cause your character to have a brawl with the character with ID number 9887.
+
+___A___     __1621__     ______
+This order would be a mistake, since it is not a brawl order it is an attack order.
+
+ 
+

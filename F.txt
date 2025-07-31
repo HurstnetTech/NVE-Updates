@@ -1,0 +1,61 @@
+ORDER		SLOT1	SLOT2	SLOT3	NOTES
+Fear Factor Setting	F	Number		Choses new factor (number of health points) for Fear Factor
+Family		F	2	TargetID	Sets up the Target character as this character's sibling
+
+
+FEAR FACTOR & FAMILY
+
+Be Afraid!
+Combat in DungeonWorld can be a fast and bloody affair.  It can also be a very unpredictable thing and your ability to do well in a fight has a lot to do with your understanding of when and how to issue different orders that are available.  Sure, there's a lot of guess-work to be done and it can go horribly wrong!  That's part of learning the game!  But there is a safety-valve available to you in the form of the 'Fear Factor' which can offer some assistance when plans go awry.
+
+The Purpose Of The Fear Factor
+You can never be sure how much damage your character will take during a turn.  You can never be sure how tough a new monster is going to be.  The big problem is that if you take a chance and issue a whole bunch of attack orders on the enemy, then every time you attack them... they are going to attack you back!  If you take a very serious wound on your second blow, you really don't want to keep attacking and thus incurring 'reply' attacks.  That's where the Fear Factor comes in.  Essentially, if you set your Fear Factor to, say, 10, then any time you issue an order to attack the system will check your current health.  If your current health is equal to or lower than the fear factor you set, your attack order will *not* be used (your character will just stand still.)  
+IMPORTANT NOTE: Fear Factors do not make you run away, nor do they stop monsters attacking *you*.  All they do is halt any attack orders you have issued.
+
+Setting Your Fear Factor
+In order to set up your fear factor you need to issue an 'F' order.  The format for this order is as follows:-
+
+_F_  _<Fear Factor>_  _____
+
+The third column is not used.  The second column simply states the amount of health you are prepared for your character to be reduced to before you want the computer to start ignoring your Attack orders.
+
+Remember:- all characters start with a Fear Factor of Zero, so if you want to set it... don't forget to do so!
+
+Reply Attacks
+Your own reply attacks are not stopped by your Fear Factor.  While the system will ignore your actual attack orders once you pass the Fear Factor you have set, if monsters choose to attack you then you will still get your reply attacks upon them (ie. you'll defend yourself, but won't initiate combat.)
+
+Getting Away
+The only way to actually retreat from combat is issuing Move Orders to do so.  If you get your turn back and see you've taken a beating... don't hesitate to run!  Many a character has hung around *just too long* trying to grab the last few trinkets from the floor... it's a sure way to a shallow grave!
+
+Be Very Afraid! (Or Not)
+Should you decide you no longer want to have *any* fear factor set you can restore it to the starting value of zero by issuing the obvious order:-
+
+_F_  __0__  _____
+
+It's brave too!  (You'll probably end up dead, but its brave!)
+
+Examples
+___X___     _2001_    _____
+ This order would set your Aggression to 'Cautious / Defensive'
+
+___X___     _2002_    _____
+This order would set your Aggression to 'Normal'
+
+
+You can set up siblings (brothers/sisters) yourself now by issuing the 'Family' Order.
+
+Format 
+F  2  <Target ID>
+
+(Yes, its the same letter as the Flee Factor order, but the computer recognises that it is not a Flee Factor order because of the presence of a number in the third column.)
+
+There is no range on the order, but the target must be in the same module. BOTH characters who are to be set as siblings must issue the order targetting the other one on the *same turn* (but it need not be the same phase.)
+
+If you are setting up multiple siblings from the same parents, you need to issue orders from all of them to all of them (if you see what I mean.)
+
+The main in-game benefit of siblings is for role-play, but there is a bonus that if the sibling is ever killed, you get told it has happened and what killed them.
+
+
+
+
+

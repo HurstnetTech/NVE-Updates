@@ -1,3 +1,12 @@
+--v0.23-alpha--
+- Added sector info information
+- Selecting a character from the currently loaded position in Characters & Creatures will load that character.
+- Selecting an item will open saved information in the Item Library if it has been investigated.
+- Added order buttons + descriptions.
+- Control plus +/- can now be used to zoom the map in and out.
+- Control plus Space will now reset zoom level and centre the map on the currently loaded character.
+- Added custom window scaling in settings menu.
+
 --v0.22-alpha--
 - Added items library window, including automatic import of data from old NVE.
 - Added item tooltips to icons in equipment and backpack.

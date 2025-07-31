@@ -1,0 +1,68 @@
+ORDER		SLOT1	SLOT2	SLOT3	NOTES
+Investigate Equipped Item	I	Slot		Investigate item in chosen equip slot number
+Investigate Backpack Item	I		Slot	Investigate item in chosen backpack slot number
+Valuation Order	I	100	Slot	Ask what the sale value of a backpack item is at courtyard/trader
+
+
+THE INVESTIGATE ORDER
+
+What It Does ...
+The purpose of the investigate order is to give you more information about a particular type of item.  It won't necessarily tell you everything there is to know about the item, but will usually give you valuable information nonetheless.
+
+The second and even more important purpose of the Investigate order is to get special order codes for using special items which need them.  For instance, it's all very well buying a Healing Potion... but how do you apply it to your wounds?  The only way to find out is to investigate the Healing Potion, at which point (among other things) you'll be told the order to apply it.  That order won't change though.  You don't need to investigate every healing potion you buy... once you have the info you just need to make a note of it somewhere for future use.
+
+... When To Do It ...
+Any time you find a new sort of item you haven't encountered before it is highly-advisable to Investigate the item!  Gradually you will collect a database of info which will be useful and valuable for all your adventures!  If you have two Short Swords, there's no need to investigate both of them, as they will both give you the same info.  But if you find a Short Sword + 5, or a Short Sword of Flame, it's worth checking them out, since they are new types of item!
+
+... And How To Do It!
+Investigating your items is done by using the Investigate order.  The format is as follows:-
+
+_I_   _<Body Slot-ID>_   _<Backpack Slot-ID.>_
+
+The first thing you need to establish is ... where is the item you are trying to Investigate?  If you have equipped it already then it will be in one of your equip slots, in which case you write the equip slot number it is in into the second column and leave the third blank.  However, if the item is still in your backpack then you leave the second column blank and write the Backpack Slot number in the third column.
+
+Why Does It Work This Way?
+A common question players ask is why they need to investigate an item to get the order code to use it.  The answer to this is easy.  In Dungeon there are *thousands* of different items and lots of them have special powers, special codes and suchlike.  A book that listed all those codes would be larger than this entire rulebook and really not feasible.  Furthermore, it would ruin the excitement of finding items you've never heard of.  The investigate method solves both problems.  So, the general rule is, if you find it ... check it out!
+
+Chain Investigations
+Sometimes the information provided in your turn will lead to a new item.  For instance, if you found a herb called 'Goldenglow' and were told in the investigation that by doing the order 'X 44' and mixing two flowers of the plant together in a bowl you would make 'Goldenglow Salve', then the Salve itself would be worth investigating once you'd made it. 
+
+Examples
+___I___     __1___     ________
+This order would investigate whatever item type was in Body Slot 1 (on your head)
+
+___I___     ______     ___4____
+This order would investigate whatever was in your 4th backpack slot.
+
+___I___     ______     ________
+This order would fail.  No Body or Backpack Slot target has been set.
+
+In The Viewer, if you middle click the mouse button on either your equipped items or back pack, it will write an investigate order for you.
+
+THE VALUATION ORDER
+
+What Is This Worth?
+The Valuation Order is a simple way to find out what price something you are carrying will fetch, if sold to a magical trader, in a courtyard or in a marketplace.  This can be very useful because the various traders often value things far lower than you might expect.  Sometimes it is better to try and arrange a trade with another player who needs the item.
+
+Rogues Do It Anywhere!
+The Valuation Order can be used by Rogues in any location.  It is an innate skill they have to estimate something's worth.  Other character types may appear at a later date which can also use this order anywhere.  For information on this see the new character descriptions as they appear.
+
+Traders Only!
+The rest of the character types can only issue the valuation order on a  magical trader square.
+The order is issued as follows:-
+
+_I_    _100_   _<Backpack Slot ID No.>_
+
+The 'I' and the '100' are always present when issuing this order.  The third column is used for the backpack slot ID where the item you want valued is stored.  You cannot use the Valuation Order on items you are equipped with.    
+
+Examples:-
+ ___I___     _100_     __1__
+ This order would value the item type in Backpack slot No.1
+
+___I___     _101_     __1__
+ This order would fail.  The number '100' is always in the 2nd column for valuation.
+
+___I___     _100_     _10__
+This order would value the item type in Backpack slot No.10
+
+

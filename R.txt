@@ -1,0 +1,25 @@
+ORDER	SLOT1	SLOT2	SLOT3	NOTES
+Remove Item	R	Slot		Remove an equipped item and place it in your backpack
+
+
+To stop using an item (to de-equip it) you would use the 'Remove' order.  The purpose of this order is to take something off of the body slot it is in and place it in the first available backpack slot.  The order is written thus:-
+
+_R_   _<Body Slot ID>_   _____
+
+In this order only the 1st and 2nd columns are used.  The item in the body slot shown in column 2 will be taken off and placed in the backpack.
+
+Non-Removable Items
+
+Some items will not allow you to remove them once they have been equipped.  This may mean they are a cursed item, or possibly a special guild item or other magically enchanted gear.  Or it may just be that the item gets 'stuck' on in a mundane fashion.  Either way, there is no way to remove these items short of finding some special in-game method of doing so.  This may take quite a bit of exploring... or you may never find a way!
+
+Keep An Eye On Your Backpack!
+
+It will not be possible to remove an item if you have no space in your backpack to put it!  A certain amount of 'backpack management' is required if you are lucky enough to have filled it up with treasure, loot and gear!  One good way to keep your backpack clear is to sign up a Man-At-Arms (or a squire if you are a crusader) and let them carry a load of stuff for you!
+
+___R___     __4__     ______
+ This order will remove the item from Body Slot 4 (waist) and put it in your backpack.
+
+___R___     _12__     ______
+ This order will remove the item from Body Slot 12 (left arm) and put it in your backpack.
+
+In the Viewer, if you right click on an equipped item, it will write a remove order for you.

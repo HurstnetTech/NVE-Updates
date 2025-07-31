@@ -1,0 +1,46 @@
+ORDER	SLOT1	SLOT2	SLOT3	NOTES
+View	V	TargetID		Take a look at chosen character/monster in field of vision
+
+
+THE VIEW ORDER
+
+The purpose of the 'View' order is to take a closer look at another character.  Remember, a character can be another adventurer *or* a monster.  If they are shown on your 'other characters I can see' section with an ID number in brackets after their name, then they are a character.  Issuing the order is a simple matter as follows:-
+
+_V__  _<Target Character>_   ___
+
+As shown, all you need is to fill in the ID No. of the character you wish to View and as long as that character is in your field of vision at the point you issue the order, you will get some information about them.
+
+Viewing Monsters
+The 'View' order serves several different purposes, but probably the most common use is to find out more about a monster type.  When you view a monster you will be given some text describing anything that is commonly known about that monster type.  Some rare or exotic monsters may not have much information to see because little is known about them.  This information could be vital since it may tell you of any special attack forms they have, common strategies they use or other valuable intelligence.  After the 'general' information about the race you are also told what the actual individual you viewed is currently equipped with (but *not* what's in their backpack or hidden about their person.)
+
+Viewing Adventurers
+Viewing adventurers gives you all the same information that you get when you view a monster. However, adventurers also have the option to have a 'description' set about them, which is individual to the character.  If you View an adventurer who has a description set up you will also be given that information.  This could be useful for many reasons, but is most valuable as a roleplay tool.  Sometimes players use the description to tell something about their motivations, which might help you decide whether to travel with them or get out of there as fast as you can move!
+
+View Self
+
+Format: V <Character’s own ID> <not used>
+V # 0
+
+A change to the VIEW order means that when a character uses it on THEMSELVES they get some additional info. They are given a list of all the skills, conditions etc currently on them at that point. This is only a list of skill and condition names, not descriptions. But it's useful for 'housekeeping' of sub-characters.
+
+
+
+
+A Cool Picture!
+Another neat thing the View order does is to give you a small picture of the character type you are viewing.  This picture is not meant to represent the actual character you can see, but is merely a representation of a 'stereotype' character of that class.  All monster types in the game have pictures, as do all the different types of adventurer.  This is great for giving you a 'feel' of the creatures you are fighting and the characters you are adventuring with.  But remember... these are 'general' pictures only... not character portraits!
+
+Passing On Contact Info
+Another very useful thing the view order does, in combination with the special description, is to allow players to pass on their contact information.  Of course, you can do this through the game noticeboard, but this is a more direct and immediate method!   It works like this... when you set up your special description, you simply include a brief ''contact me at...'' detail in there and anybody who views the character will see who is running them!
+
+Examples
+___V___     _1166_     ______
+ This order will View the character with ID No. 1166 if within your vision.
+
+___V___     _420__     ______
+This order will View the character with ID No. 420 if within your vision.
+
+___V___     ______     ______
+This order will fail.  No target character ID No. is specified.
+
+___V___     ______     _345__
+ This order will fail.  The Target Character ID. No. has been put in the wrong column.

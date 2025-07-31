@@ -1,0 +1,38 @@
+ORDER	SLOT1	SLOT2	SLOT3	NOTES
+Sell Item(s)	S	Quantity	Slot	Sell quantity of items from backpack slot at a courtyard or trader
+
+
+The Sell order has a different format and is slightly more powerful than the Buy order.  You can only sell things on a trading location (such as a magic trader) which is interested in buying things.  Magical Traders will buy *anything*, which makes them better than the more fussy trading places you might find.  You can dump all the stuff you've picked up but have no use for on a magic trader in exchange for gold.
+
+How To Sell Things
+
+To Sell Stuff to any sort of general trader you use the generic 'Sell' order.  The format is as follows:-
+
+_S_    _<Quantity>_    _<Backpack Slot-ID.>_
+
+As you can see, selling things works differently from buying things because you *can* sell multiple things with a single order, so long as they are in the same backpack slot (which will mean they are the same sort of item.)  You write the quantity of the items you want to sell in the second column; it might be one thing, it might be dozens.  In the third column you show which backpack slot you are selling from!   You can't sell things you are equipped with.
+
+How Much Will I Get?
+
+When you have things to sell, either because you are getting rid of obsolete equipment or selling treasure and items you have found, you can either simply sell the stuff (taking whatever price they give you without argument) or you can use another order to find out how much they will give you first.  Magic traders will tell you what your item is currently worth when you use the 'Valuation Order' (shown elsewhere).  More specific traders will tell you what they buy and for how much when you issue a 'Look' order on the square.
+
+Most people simply sell the loot and take whatever they get as a nice bonus, but sometimes with magical items it's worth checking first.  The money you get might mean it's not worth selling the item. 
+
+Possible Pitfalls
+
+Trying to sell more items than you have in the slot is a definite no-no.  The order will fail completely (it won't sell the max you have, it will just send an error).  
+
+Another common mistake that beginners (and veterans sometimes, much to their chagrin) make is putting the second and third columns the wrong way around.  Be careful!  At best it'll result in a lot of failed orders, at worst you could end up selling stuff you just killed a tribe of Ogres to obtain!
+
+Selling To Other Players
+
+There is no specific mechanism for selling player-to-player in the game, but it does go on and is possible.  The only way to achieve it is with somebody you trust, via the Give Gold and Transfer Item orders.  Long-distance sales aren't allowed, so please don't ask your GM to manage a trade between dungeons and characters... they'll just tell you to do it yourself!  
+
+ Examples
+___S___     ______     ________
+This order would fail!  You have not specified anything in the 2nd and 3rd columns.
+
+___S___     __1___     ___5____
+This order would sell *one* of whatever was in your 5th backpack slot.
+
+___S___     __5___     ___11___

@@ -1,0 +1,2 @@
+ORDER	SLOT1	SLOT2	SLOT3	NOTES
+Cast Spell	C	Varies	Varies	Used to cast some spells.  See spell scroll/parchment for info

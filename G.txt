@@ -1,0 +1,27 @@
+ORDER	SLOT1	SLOT2	SLOT3	NOTES
+Get Gold	G			Get all loose gold from the square you are standing in
+Give Gold	G	Amount	TargetID	Give some gold to target character in same/adjacent square
+Drop Gold	G		Amount	Drop some gold in the current square
+
+
+GOLD
+
+If you see the $ symbol that means there is a pile of gold in the square.  All you need to do to pick it up is walk to the square and issue the ''Get Gold'' order as follows:-
+
+__G__     _____     _____
+This order picks up *all* the Gold Pieces in the square.
+
+__G__     __45___     _____
+This order picks up 45 Gold Pieces in the square, if there is less than 45, you will pick them all up.
+
+
+__G__  <not used>  <amount of gold>
+This order will drop an amount of gold on the floor.  If the amount is more than you have, it will simply drop all you have on the floor (it doesnt fail, like the normal give does when you try to give too much.)  Note:- the second column must be empty to allow the system to determine that its different from a Give Gold order.
+
+
+Finally, an order which allows you to give gold to another character! The character must be standing in the same square as you or a directly adjacent square.
+__G__     __<GPs>__     __<Target Char. ID>__
+
+Examples:
+___G___     _187__    __2141___
+ This order would give 187 GPs to character ID 2141 (if in same or adjacent square.)

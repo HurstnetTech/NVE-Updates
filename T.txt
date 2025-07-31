@@ -1,0 +1,40 @@
+ORDER	SLOT1	SLOT2	SLOT3	NOTES
+Transfer	T	Slot	TargetID	Give 1 item from backpack to target in same/adjacent square
+
+
+THE TRANSFER ORDER
+
+Giving Stuff To Others
+There are many reasons why you might want to give something you are carrying to another character.  Perhaps it is part of a trade you are doing?  Perhaps it is a healing potion or mana bread to assist an injured friend?  Perhaps you are collecting similar goods to one character for easier sale at a later point?  Whatever the reason, you are going to need the 'Transfer' order.
+
+How It's Done!
+You can *only* give one item at a time to another character.  There is no way to transfer more than one item at a time to another character short of issuing several orders, one for each item you want to give them.  You can *only* transfer an item which is in your backpack, *not* one you are equipped with.  In order for a transfer to work the character must be in the the same square as you, or one of the eight adjacent squares.  When you give away an item it is called a 'transfer' and the order is written like this:-
+
+_T__  _<Backpack Slot>_   _<Target Char.>_
+
+As you can see from the example you need to specify which backpack slot the item you want to transfer is in and also which character you want to transfer the item to!  To find out the character's ID No. to put in the third column you can check it out in the 'other characters I can see' or 'other characters present' sections of your turnsheet (it's the number in brackets after their name.)
+
+Remember, no matter *how* many of the item you have in the backpack slot, only *one* of them will be transferred.  If you want to transfer more, you'll have to issue more transfer orders.
+
+Where Do They Go?
+Like any order which moves equipment, the item will be placed into the target characters backpack in the first available slot for an item of its type.  If the character has no room in their backpack the order will fail.
+
+Clever Order Use
+It is entirely possible for a character to give their friend a healing potion on order phase 4 and for the new owner to then use the potion on order phase 5.  Clever use of orders can be a real boon for many reasons... and may even save your life!  But you'll need to work out a few things... make sure the characters are in the same square or adjacent to each other on the order phase where you do the transfer... make sure the receiving character has space in their backpack and work out which slot the item will go to in that phase.  This may sound complicated, but it isn't really.  You'll soon get the hang of it and then you'll be able to manage some amazing character-interaction during your turns.
+
+Non-Transferrable Items
+Some items are not transferable.  This usually means they are either a special guild item, a cursed item or an item with special enchantments upon it to prevent transfer.  Investigating the item will usually tell you if an item is non-transferable... but cursed items can sometimes come as a horrible surprise...
+
+Examples
+___T___     __1___     __347___
+This order will transfer one item from backpack slot 1 to character 347.
+
+___T___     __6___     __1211__
+This order will transfer one item from backpack slot 6 to character 1211.
+
+___T___     __4___     _______
+This order to transfer from backpack slot slot 4 would fail.  No Target Character ID No. has been set 
+
+___T___     ______     __149___
+This order to transfer to character 149 would fail.  No backpack slot ID No. has been set
+ Taking A Closer Look

@@ -1,0 +1,34 @@
+ORDER		SLOT1	SLOT2	SLOT3	NOTES
+Pick Up All		P			Pick up all items in the current square
+Pick Up Specific & Equip	P	FloorIDCode	1	Pick up a specific item and immediately equip it
+Pick Up Specific & Store	P	FloorIDCode	2	Pick up a specific item and put it in backpack
+
+
+If you see the ? Symbol that means there are items of some kind in the square.  They could be anything from a dead rat to a priceless gem... the only way you are going to find out is to pick them up, which you can do using the 'Pick Up Items' order as follows:-
+
+__P__     _____     _____
+This order picks up *all* the items in the square.
+
+__P__     __<Pick up Code>__     _____
+By specifying the item code in the 2nd column and leaving the 3rd column blank you instruct your character to pick up only that item and equip it.  If there is an item already equipped to that body slot it will be dropped to the ground.
+
+__P__     __<Pick up Code>__     __1__
+As above, the item code in the 2nd column and a '1' in the 3rd column instructs the character to pick up *only* that item, to equip it immediately and to place any originally equipped item in that slot into your backpack.
+
+__P__     __<Pick up Code>__     __2__
+Or, substitute a '2' in the 3rd column to instruct the character to pick up *only* that item and put it straight into their backpack.
+
+But Most Often...
+
+Just writing an order 'P' with nothing in either column is still the most common method of picking up items.  Remember, just because you see items and gold at the end of your turn doesn't mean somebody else won't pick it up before you do in the next turn... especially if your area is crowded with player-characters.  Your Pick-Up and Get Gold orders might fail simply because somebody beat you to the loot!
+
+Examples
+___P___     ______     ________
+This order would pick up *all* items on the characters current square.
+
+___P___     __5___     ___1____
+This order would pick up item (5) and equip it, placing an already-equipped in the backpack.
+
+___P___     __5___     ___2____
+This order would pick up item (5) and put it straight into your backpack.
+

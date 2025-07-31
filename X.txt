@@ -1,0 +1,7 @@
+ORDER	  SLOT1	SLOT2	SLOT3	NOTES
+Set Aggression	  X	Style		Set Aggression, 2001=Cautious.  2002=Normal,  2003=Gung Ho
+
+
+Skill Limits
+
+The limit on the number of skills a character can have has been increased from 12 to 25. Otherwise, the rules on skills still apply.

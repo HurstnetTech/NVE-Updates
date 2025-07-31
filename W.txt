@@ -1,0 +1,35 @@
+ORDER		SLOT1	SLOT2	SLOT3	NOTES
+Pray		W			Pray to the gods of light (chance to heal priests)
+Pray for Mana Bread	W	1		Priest Ability.  Pray for mana bread
+
+
+PRAYING & HEALING
+
+The Power Of Prayer
+Priests in DungeonWorld are able to pray to the Gods of Light in an attempt to heal their own bodies or to grant the holy boon of Mana Bread.  Without special skills these are their only special powers.
+
+Healing Yourself
+A Priest can pray to the Gods Of Light to heal wounds upon their own body.  This is achieved by using a plain ''W'' order as follows:-
+
+___W___  _______  _______
+
+The order may or may not succeed, depending on various hidden factors.  Priests can issue as many ''W'' orders as they have order slots each turn and each will have the same chance of success.  When a ''W'' order succeeds it heals the priest of five points of Damage.  A priest cannot heal themselves higher than their ''max health''.  
+
+The Gift Of Mana Bread
+Priests also have the ability to pray for a holy boon which is called ''Mana Bread''.  Again, there is a chance per order that the prayer will succeed and multiple orders can be issued per turn.  Each time the order succeeds the priest will be granted one loaf of Mana Bread.  This holy food can then be given to other character companions to eat (or eaten by the priest).  The order to pray for Mana Bread is:-
+
+___W___  ___1___  _______
+
+Giving Mana Bread to another character is done using the ''Transfer'' order (described in its own section).  They must then issue a special order to eat the Mana Bread. This order can be discovered by Investigating the Mana Bread.
+
+Mana Bread can also be used for healing sub-characters and animals of damage.  All animals have at least one backpack slot, which means it is possible to transfer Mana Bread to them for consumption.
+
+Healing Other Characters
+Using Mana Bread is the only way priests have of healing other characters when they first start the game.  Obviously, to issue an order to eat the mana bread the other character needs to be conscious... so if a character is killed the priest cannot heal them.  Certain special skills, like ''Healing 1'', grant a priest the ability to heal ''at range'' without using Mana Bread... although the amount of healing they do is much less.
+
+Prayer For Non-Priests
+Any character can issue the ''W'' order and pray to the Gods Of Light.  Only Priests have a chance to heal themselves with prayer, but other characters might like to do so just because they are pious and good...
+
+Common Mistakes
+Players who have been in other fantasy games of various types often have misconceptions about Priests in DungeonWorld.  You should note that this game's priests do not have spells to cast.  They do not have the ability to heal by 'laying on hands'.  They do not have ranged healing at all without special skills to give them that power.  This is a deliberate part of the flavour of this game and this setting, an intrinsic part of the game balance!
+ 

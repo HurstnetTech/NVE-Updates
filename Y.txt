@@ -1,0 +1,73 @@
+ORDER		SLOT1	SLOT2	SLOT3	NOTES
+Training		Y	Code		1=Int.  2=Str.  3=Wis.  4=Dex.  5=App
+Forage/Eat/Sleep	Y	Code		6=Forage for Food.  7=Eat Rations.  8=Sleep
+
+
+THE TRAINING ORDERS
+
+Training Types
+The ''Y'' order in DungeonWorld has numerous uses, some of which can only be discovered by playing the game.  However, the most common use of the ''Y'' order is for training.  The purpose of training is for a character to practice in various ways in an attempt to increase one of their basic statistics.  
+
+
+It should be noted that this is a slow process... don't expect to see results overnight.  On average, there is a chance of between 25-1 and 40-1 for a stat increase for each training order you attempt.  So if you spend your whole turn practicising the same statistic you would still only have a 25%-50% chance of an increase.  Some characters are really unlucky and take forever to get an increase, while somebody else might pull it off on the first try!  That's the natural way!
+
+Studying
+This is the training you do to increase your ''Intelligence'' stat.  Studying can only be achieved if you have found a Study Book.  These are not available on general sale, since they are quite expensive and rare... but you can find them while adventuring and some guilds supply them too.  This is how you write the order for studying:-
+___Y___  ___1___  _______
+
+Bodybuilding
+When you want to increase your strength you need to do bodybuilding.  No special equipment is needed and you can do this anytime, anywhere, pretty much.  The order is:-
+___Y___  ___2___  _______
+
+Philosophising
+Taking time to sit down and contemplate the meaning of life and your place in the world is achieved by philosophising.  This can be done anywhere, although it has a better chance of success in peaceful meadows and quiet woods.  It increases Wisdom.  The order is:-
+___Y___  ___3___  _______
+
+Juggling
+Juggling and other feats of manual ability are used to hone and perfect a character's Dexterity.  No special equipment is needed.  The order is:-
+___Y___  ___4___  _______
+
+Grooming
+Cut your hair, wash your face, dust off your clothing, polish your armour and boots.  Grooming is the method by which a character can increase their appearance score.  This is a harder statistic to increase than the others.  No special equipment is needed.  The order is:-
+___Y___  ___5___  _______
+
+
+Practice Makes Perfect!
+Remember, the more orders per turn you use to practice, the more chance you have of an increase, through sheer law of mathematics!  It is plain silly to leave order spaces blank for your main characters because even if you have absolutely nothing else to do, you can always use your time constructively... training!
+
+The Human Maximum
+The maximum of any of the base statistics for an adventurer is 30.  Once a stat has reached 30 it hits a natural barrier and cannot be increased further without magical assistance.  
+
+EATING & SLEEPING
+
+Foraging!
+
+In DungeonWorld characters need to eat or they will starve.  This is quite a slow process and shouldn't cause a character undue problems unless they are somewhere in which food is scarce and have forgotten to buy rations.  Of course, while you can buy your food from a trader, you can also hunt for it yourself.  The Forage order lets you attempt to find edibles in your surrounding area.  The chances of succeeding vary according to where you are.  If you do succeed, no matter what sort of food you find it will be converted to ''a portion of rations'' in your backpack.  The order to forage your surrounding area is:-
+
+___Y___  ___6___  _______
+
+
+Dinnertime!
+
+You will notice that every character in Dungeon has a 'last ate' statistic which shows how many turns it has been since they last had a full meal.  This is not something you need to worry about until after it passes five turns.  At this point your character will begin to suffer invisible minuses in combat and in other game actions due to hunger pains, these negative modifiers becoming increasingly worse each further turn no meal is eaten.  The matter becomes particularly serious after ten turns, when your character will begin to starve, taking actual damage which gets progressively worse each turn thereafter until they either eat... or starve to death!
+
+In order to eat a meal you must have a portion of rations.  Then all you need to do is issue one simple order and the rations will be eaten.  That order is...
+
+___Y___  ___7___  _______
+
+Eating a single portion of rations resets the 'last ate' counter to zero.
+
+
+Sleeping!
+
+In the same way that there is a 'last ate' counter on your character there is also a 'last slept' counter.  Going without some decent sleep over long periods is dangerous for anybody and so the system works in a similiar fashion to that of food.  Three to nine turns without sleep result in invisible negative modifiers in combat and other game actions... after the tenth turn you will begin to take damage which gets progressively worse each turn thereafter.  It is entirely possible to die of sleeplessness. 
+
+Adventurers are a hardy bunch.  They are used to grabbing their rest almost anywhere and so no special location is needed for sleeping.  You only need to issue a simple order...
+
+___Y___  ___8___  _______
+
+
+Sub-Characters
+
+Sub-Characters and summoned monsters have no 'last ate' and 'last slept' statistic.  This is not to suggest they do not need to sleep, only that the game does not deem it necessary to keep track of such things for minor characters which are meant to be 'simple' additions to a position.  It is assumed the Sub-Characters are quietly sleeping and eating whenever they get a chance without you needing to do orders or provide rations.  The 'upkeep' you pay certain sub-characters automatically is also assumed to cover food and suchlike, where necessary.
+

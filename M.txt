@@ -1,0 +1,122 @@
+ORDER		SLOT1	SLOT2	SLOT3	NOTES
+Move		M	Code		Move in chosen direction
+Move & Attack Target	M		TargetID	Move towards target and attack if in range
+Follow Target		M	9	TargetID	Move towards target (follow) and do not attack
+
+
+When controlling any sort of DungeonWorld character one of the main things you are going to want to do is Move Around.  In DungeonWorld, you use the basic Move order to achieve most normal movement.  
+
+Each Move order lets your character move one square on the map.  If you want to move more than one square, you need to issue multiple move orders.
+
+Direction Codes
+
+Telling the computer which direction you want to move in is done by a simple 1-digit ''direction code''.  To move in a direction these are the codes:-
+  
+  Direction to Move	Code
+  North			1
+  North-East		2
+  East		     	3
+  South-East	     	4
+  South		    	5
+  South-West	    	6	
+  West		    	7
+  North-West	    	8	
+
+How To Issue The Move Order
+
+When writing a Move Order on your turnsheet the format is as follows:-
+
+___M___     _<Dir. Code>_     __________
+
+As you can see, on the normal move order the third order column is not used.  You do not need to write anything in it at all.  Some advanced Move Orders do use the third column, but they for special circumstances and are discussed elsewhere in these rules.
+
+Move Points
+
+How far your character can move in a single turn is decided by their "Move Points" (MPs).  Every time you use a move order and move a single square on the map you use some move points.  Underground, in castles, in dungeons or most other kinds of limited area you use only 1 MP per square you move.  
+
+On the surface world different terrain types have different 'Move Point' costs to move over them..  When your move points reach zero you cannot move any more that turn.  Your Move Points recharge to full at the start of each new turn.  Your Move Points are calculated *before* you move into a square.  So, if you are trying to move to 'Light Forest' (costs 3 MPs) and do not have 3 MPs left, you will be unable to even enter the square and your move will stop on the previous square.
+
+Common Terrain Move Costs
+
+Here are the common costs to move over terrain that you will find while travelling on the surface world.
+
+  Open Land 		2 MPs
+  Light Forest      		2 MPs
+  Heavy forest    		3 MPs
+  Gentle Hills		3 MPs
+  Steep Hills		4 MPs
+  Mountains		impassable
+  Body Of Water 		4 MPs or impassable
+  Broken Land     		3 MPs
+  Kings' Road		1 MP
+  Other Roads    		1 MPs
+  Structure		1 MPs
+
+Examples
+___M___     __1__     __________ 	This order would move the character 1 square North 
+
+___M___     __4__     __________ 	This order would move the character 1 square South-East 
+
+___M___     __7__     __________ 	This order would move the character 1 square West
+
+___M___    __12__    __________ 	This order would fail.  It is an error. '12' is not a valid direction code.
+
+THE FOLLOW ORDER
+
+There are many reasons you might want to have your character follow another character.  The Follow order achieves this quite well, but it is also the most misunderstood order in the game, causing more player-errors than almost any other order.  So we'll be sure to go through it clearly and carefully...
+
+The Move Order
+
+There is actually not a 'follow order' as such.  Instead, the system uses the 'Move' order in a slightly different way to achieve various types of following.  There are three different uses of the order, 'Follow & Attack', ' Follow & Attack Any Enemy' or 'Just Follow'.  Whichever you use, all the normal rules which apply with the Move Order are still the same.  You must issue one order for each square you want to move.  Each Move costs 'Move Points' as per the terrain you are crossing (or 1 MP in Dungeons over almost all terrain.)  See the page detailing the Move Order for the full rules.
+
+Follow & Attack
+
+This is probably the most common usage!  By issuing this order you are instructing your character to take a step one square closer to a specified enemy and if they are within range of your currently equipped weapon... to attack them!  The order is written like this:-
+
+___M___  ___0___  __<Targets ID>__
+
+Notice that the second column has a zero order written in it (or is left blank, as you prefer) and that the third column has a target characters ID Number.  Your character will take a step towards the target and try to hit them with the currently-equipped weapon if they are within its range.  
+
+The order is very helpful for 'going after' particular targets who may be fleeing or hiding out of range, since you have no way of knowing what they are going to do during the turn.  The order will not work though if the target character manages to get out of range of your current 'vision' range, or if they are killed during the turn of course!
+
+Just Follow
+
+This order is helpful when you are travelling with characters controlled by another player.  The order works just like the 'Follow and Attack' order except that you will not try and attack the target you are following as part of the order.  (You may still do so because of your hostility if you have it set so that they are an enemy.)  The order is written like this:-
+
+___M___  ___9___  __<Targets ID>__
+
+The ''9'' in the second column is always a nine for this order and is there to identify the order as a 'Just Follow'.  If you are in the same square as the character you are following the order will return an 'I'm already here' type report.
+
+Follow & Attack Any Enemy
+
+This very powerful order instructs your character to look around their field of vision, randomly choose a target according to your current Hostility settings and then issue a 'Move and Attack' order upon them.  You do it like this:-
+
+__M__  ____  ____
+
+Yes, it really is just an "M".  You can't be sure which direction this will take you in, since you don't know what your opponent will do, but its very useful in mass combat when you are using a melee weapon rather than a missile one. This order works in *conjunction* with the "A" order for ''setting your final target" (see the 'A' order page for full details.)  Essentially, you issue an 'A' order to set your final target and then a bunch of "M" orders to chase them down.  You *will* still attack other enemies who block your path, while heading steadily towards the target you want to kill off!
+
+Things To Watch For!
+
+All the follow orders use computer artificial intelligence to plot the route they will take to their final target.  While the computer is very smart, its not as smart as most players so will not always take the route you expect.  And remember... one Follow order, like any move order, only moves you *one square*.  Issue multiple orders for multiple following.
+
+Examples
+___M___     __9___     __6701__
+This order would instruct your character to take a step closer to character ID. 6701  
+
+___M___     ______     __6701__
+This order would fail.  The number "5" in the 2nd column is not a valid order.
+
+___M___     __5___     __2178__
+This order would instruct your character to take a step closer to character ID. 6701 
+and attack them if they were within range of your current weapon.
+
+___M___     ______     ________
+This order would instruct your character to take a step closer to a random enemy
+and attack them if they were within range of your current weapon.
+
+
+
+
+
+
+ 

@@ -1,0 +1,46 @@
+ORDER	SLOT1	SLOT2	SLOT3	NOTES
+Mount	Z	TargetID		Mount horse (or other) in same square
+Dismount	Z			Dismounts currently mounted mount
+
+
+THE MOUNT ORDER
+
+Mountable Characters
+It is possible to gain quite a variety of different mounts as you explore the game, although mounts are not 'common' by any means.  All mounts, no matter what they are, are still considered 'characters' just like any other.
+
+Mounting
+Once you have found a mount you can have a character ride it by issuing the Mount order:-
+
+_Z_   _<Target ID No.>_   ______
+
+You can only mount a character which is in the same square as you, and which is a mountable character type (like a horse).    
+
+Riding
+Once you have mounted a mountable character you are then considered to be riding.  As long as you are riding the mount your character will move with that mount according to the mounts move orders.  The rider does not need to issue move orders, they will be carried along with the mount as it moves, using the mounts movement points and limits instead of their own.  
+
+Riding Limits
+Some mounts can carry more than one rider at a time.  Most horses, for instance, can carry two.  Centaurs can only carry one.  The different limits are usually fairly obvious, and where they are not the information is given in the View Order for the mount.  
+
+
+Riding An Unwilling Mount
+It's even possible to ride a mountable character which is not willing to be ridden.  Usually, its wise to only mount something you control, but if you wanted to you could jump onto the back of, for instance, a Dark Centaur, and attempt to ride it.  This will usually result in the Dark Centaur having you nice and close so it can continually attack you every phase, so its not a common tactic.  Unwilling mounts can also attempt to throw you off.  If they manage to do so, you will probably take some damage when you fall.
+
+Dismounting
+When your rider is ready to dismount, a simple non-targetted Z order will have them climb off the mount and be free to move on their own again.  The order is:-
+
+_Z_   _____   ______
+
+ Non-Living Mounts
+Some mounts, like a Wagon for instance, are still considered a character by the game system and climbing onto the wagon works in the same way as with a living mount.  The Wagon would still have an ID number like any other character.
+
+Examples
+___Z___     ______     __805__
+ This order would fail, the ID number should be in the second, not the third, column.
+
+___Z___     __4150__     _____
+ This order would cause you to try and mount character ID 4150, if it was in the same square.
+
+___Z___     _______     _______
+This is a dismount order.  If you are mounted, you will climb off the mount.
+
+Watching Out For Your Friends
