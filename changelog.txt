@@ -1,3 +1,20 @@
+--v0.24-alpha--
+- Added skills library.
+- Added creature library.
+- Selecting a character you don't own in Characters & Creatures will open it in the creature library if it has been viewed previously.
+- Clicking an item icon in equipped items/backpack will now open it in the item library if it has been investigated.
+- Added option for custom class ordering in settings.
+- Added warning levels in settings.
+- Implemented move up/down buttons on main menu.
+- Added centre map button.
+- When a character is loaded the first unfilled order will now be automatically selected.
+- Items in the item library will now be ordered alphabetically.
+- Updated themes to work alongside Window's themes.
+- The user will now be prompted to restart the program after changing settings that require a restart.
+- Added a validator to the custom scaling entry.
+- Fixed issue with item data for items containing ' - ' in their name.
+- Fixed rare crash sometimes caused by click-dragging onto the map from a different window while changing focus.
+
 --v0.23-alpha--
 - Added sector info information
 - Selecting a character from the currently loaded position in Characters & Creatures will load that character.
