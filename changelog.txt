@@ -1,3 +1,13 @@
+-v0.24.1-alpha-
+- Separated Stats into two sections.
+- Added owner and upkeep to General Info of Other Details
+- Move all orders down now only moves orders below the cursor.
+- Fixed visual bug where characters could be offered more orders than they have.
+- Fixed settings restart prompt not appearing.
+- Fixed bug with map data when inside rooms that you cannot see out of.
+- Fixed bug where character's last ate/slept are non-integer values.
+- Fixed incorrect formatting for some parts of Other Details.
+
 --v0.24-alpha--
 - Added skills library.
 - Added creature library.
