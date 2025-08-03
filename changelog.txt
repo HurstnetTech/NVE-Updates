@@ -1,3 +1,6 @@
+-v0.24.2-alpha-
+- Fixed error with settings restart.
+
 -v0.24.1-alpha-
 - Separated Stats into two sections.
 - Added owner and upkeep to General Info of Other Details
