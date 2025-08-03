@@ -1,3 +1,6 @@
+-v0.24.3-alpha-
+- Removed settings restart prompt due to issues with how Pyinstaller extracts plugins.
+
 -v0.24.2-alpha-
 - Fixed error with settings restart.
 
