@@ -1,5 +1,8 @@
+-v0.24.4-alpha-
+- Reconverted Golden Coast City to deal with previous map data bug.
+
 -v0.24.3-alpha-
-- Removed settings restart prompt due to issues with how Pyinstaller extracts plugins.
+- Another fix for settings restart.
 
 -v0.24.2-alpha-
 - Fixed error with settings restart.
