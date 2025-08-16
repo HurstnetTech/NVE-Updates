@@ -1,3 +1,8 @@
+--v0.25-alpha--
+- Connected to server, the new NVE will now download turns and upload orders directly to the server.
+- Fixed crash caused by error in game's formatting for negative account balances.
+- Converted skills.txt to json to fix issues with new lines.
+
 -v0.24.4-alpha-
 - Reconverted Golden Coast City to deal with previous map data bug.
 
