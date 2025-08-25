@@ -1,3 +1,8 @@
+-v0.26.1-alpha-
+- Fixed some additional solid terrain types.
+- Reconverted all maps to deal with lingering issues from v0.24.1-alpha.
+- Fixed PreSkill and Undead Skill formatting in other details.
+
 --v0.26-alpha--
 - Restored map functionality with new loading logic.
 
