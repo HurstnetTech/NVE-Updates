@@ -9,25 +9,29 @@ If you are reading this you have already installed the program from the installe
 On launch, the NVE will always check for updates and prompt you to install the updates if any are found.  
 
 
-FIRST OF ALL
-------------
-Currently NVE 2.0 cannot connect to the Madhouse servers.  You must use the original NVE to download your turns and then use the Download NVE button in NVE 2.0 to import them from the old NVE and the Build Orders button will send your order files back to the old NVE.  You must then use the Build Orders button on the old NVE to actually send your orders to Madhouse.  This is in the process of being addressed and we expect to be able to connect directly very soon.
-
-
 IF YOU ARE USING A FIREWALL OR OTHER SECURITY SOFTWARE
 ------------------------------------------------------
 If you receive any warnings relating to the NVE please add the program to your allow list/whitelist.  There is no virus/spyware/malware but false positives can occur so just Trust it and all will be well.
 
 
+FIRST TIME SETUP
+----------------
+The first time you attempt to launch the program by running the file called NVE 2.0.exe will be detected by the program and offer guidance in setting up your positions. You can select "Import from Old NVE" or "Setup New NVE". If you used the previous version of the NVE click "Import from Old NVE" to port across your data, otherwise click "Setup New NVE". 
+Either option will take you to screen asking for your account number and a verification code. Your account number can be found near the top of any of your turns or in any email containing your PDFs. Your verification code is a unique 6-digit code. If you do not know your verification code please email contact@madcentral.com to find out. Do not share this code with anyone as doing so will allow them to download any of your positions and send orders for them.
+If importing from the old NVE you will now be prompted to give the program the path to your instance of the old NVE. This should be the folder containing "NVE v6-3.exe". Clicking the folder icon will open a dialog allowing you to navigate through your file system.
+For either option you will then be shown a progress bar while the program prepares data for your use of the NVE. Please be patient and allow it to finish. Importing from the old NVE may take longer while it converts your old data.
+Everything is then complete! You're ready to use the new NVE to view turns and send orders.
+
+
 OPENING THE PROGRAM
 -------------------
-Run the file called nve.exe and you will see the opening screen which allows you to pick a position.  This lists the different positions you can explore.  Each position will also inform you whether orders have been sent this turn, and if so when.  Selecting a position will highlight it and allow you to use the following buttons:
+Run the file called NVE 2.0.exe and you will see the opening screen which allows you to pick a position.  This lists the different positions you can explore.  Each position will also inform you whether orders have been sent this turn, and if so when.  Selecting a position will highlight it and allow you to use the following buttons:
 
-Download NVE.  This will currently import your latest turn file from the old NVE.  Ultimately it will directly download your turn from the Madhouse servers once that functionality has been implemented.
+Download NVE.  This will directly download your turn from the Madhouse servers. This functionality is disabled for unverified positions.
 View NVE. This will open your turn to be viewed and orders written.
 Download PDF.  NOT CURRENTLY ACTIVE.  This will download a PDF of your turn from the Madhouse servers.
 View PDF.  NOT CURRENTLY ACTIVE.  This will open the PDF for viewing.  
-Move Up & Move Down.  NOT CURRENTLY ACTIVE.  These allow you to re-order your positions.
+Move Up & Move Down.  These allow you to re-order your positions.
 
 
 USING THE NVE MAIN SCREEN
@@ -37,7 +41,12 @@ Okay, there's a LOT of stuff on this screen.  Its daunting to look at.  Don't pa
 
 LAST CHARACTER & NEXT CHARACTER BUTTONS
 ---------------------------------------
-By default, the first character in your position is shown first of all.  You can scroll through your position's characters using the "Last Character" and "Next Character" buttons in the top left of the screen.
+By default, the first character in your position is shown first of all.  You can scroll through your position's characters using the "Last Character" and "Next Character" buttons in the top left of the screen. Holding 'CTRL' while clicking these buttons will skip back/forwards to the first character with missing orders.
+
+
+FIND CHARACTER BUTTON
+---------------------
+Allows you to enter a character number and load them if they exist on the current position.
 
 
 VIEW TURN BUTTON
@@ -67,23 +76,23 @@ This button allows you to switch to a different position without having to go ba
 
 ITEMS BUTTON
 ------------
-NOT CURRENTLY ACTIVE. This button takes you to the item screen which lets you scroll through and view all the items the NVE has stored information about so far.  (The NVE automatically stores information when you use the INVESTIGATE order.)  This screen is fairly self-explanatory.  It also allows you to change the text that has been stored and save your new version (in case you discover more, or disagree with what the text says due to game experience.)  If in doubt, don't click the save button at all. <grin>
+This button takes you to the item screen which lets you scroll through and view all the items the NVE has stored information about so far.  (The NVE automatically stores information when you use the INVESTIGATE order.)  This screen is fairly self-explanatory.  It also allows you to change the text that has been stored and save your new version (in case you discover more, or disagree with what the text says due to game experience.)  Clicking an item in your equipped items or backpack will automatically open it here if you have previously investigated it.
 
 
 CREATURES BUTTON
 ----------------
-NOT CURRENTLY ACTIVE. This is just like the View Items button, but looks at Character Types you've discovered in the game. The NVE saves the result of VIEW orders here.
+This is just like the View Items button, but looks at Character Types you've discovered in the game. The NVE saves the result of VIEW orders here.
 If you click on a creature icon on the map and then click the VIEW CREATURES button, you will automatically go to the information for that creature that is currently stored.
 
 
-TERRAIN BUTTON
+SKILLS BUTTON
 --------------
-NOT CURRENTLY ACTIVE. This is the same as the previous two buttons but covers TERRAIN you have information about.  The system does not auto-store orders here, this is information that you have pasted in from results in your turn if you wish to store information about terrain.  In order to use this button you must first click on a terrain square on the map to tell the computer what terrain you are interested in, or the button will do nothing.
+This is the same as the previous two buttons but covers Skills you have information about. Initially this will be populated with the skills in the rulebook, but you may add additional skills manually by typing the name in the "Search for Skill" field and clicking the + button. Quick orders may be used to write directly to the currently loaded character's orders (useful for learning skills).
 
 
 SETTINGS BUTTON
 ---------------
-Allows you to adjust various program settings such as Theme and window scaling in case you are having difficulties in viewing the NVE on your monitor. 
+Allows you to adjust various program settings such as Theme and window scaling in case you are having difficulties in viewing the NVE on your monitor. The warning levels will change the colour of various text when those values surpass the thresholds set.
 
 
 EXIT TO MAIN MENU BUTTON
@@ -91,18 +100,29 @@ EXIT TO MAIN MENU BUTTON
 Click this button to leave the Main Editor and return to the game select screen, for instance if you want to quit the program or select a different position to view.
 
 
+LETTER BUTTONS
+--------------
+These will open a window displaying information about the order with that letter code.
+
+
 CHARACTER ORDERS
 ----------------
 You can type orders for a character here.  You'll notice a bunch of buttons down the right-hand side of the order entry boxes.  Hover your mouse over each button for a pop-up description of what each button does.  All these buttons perform functions which assist in order entry in one way or another.
 
 
+SECTOR INFO
+-----------
+The dropdowns here allow you to see characters and items on the selected square which is indicated on the map with a blue overlay. Note to see items you will need to own a character in that square. Selecting a character in the dropdown will load that character if it is owned by you and on that position. Otherwise it will open it in the creatures menu if you have previously viewed it.
+
+
 BUILD ORDERS BUTTON
 -------------------
 This builds your order file.  This button should not be clicked until you have complete ALL the character orders for this position.  Once you have done so and are satisfied they are right, click this button.  
-Currently you must then use the old NVE to send the orders to Madhouse.
+The program will compile all of the orders for that position into a DUN file and send it to the server.
 
 
 THE MAP
 -------
-You can zoom in and out of the map using the wheel on a wheel-mouse. 
+You can zoom in and out of the map using the wheel on a wheel-mouse or alternatively CTRL plus +/-
+The viewport can be moved by dragging on the map while holding left click. If you get lost you can use the "Centre Map" button to return to the selected character or press CTRL plus SPACEBAR.
 To the left of the map are buttons which allow you to adjust the map display.  Hover your mouse over each button for a pop-up description of what each button does.

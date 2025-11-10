@@ -1,3 +1,14 @@
+--v0.27-beta--
+- Added account verification.
+- New positions on a verified account will now automatically appear in the NVE.
+- Added the option to setup the NVE for the first time without importing from the old NVE.
+- Updated READ ME information.
+- Updated/added some button tooltips.
+- Removed load map button.
+- Fixed issue when replacing existing graphics with new graphics and file clean-up after download.
+- Fixed path error with graphics check data file.
+- Fixed crash caused by attempting to move beyond the confines of a map.
+
 -v0.26.1-alpha-
 - Fixed some additional solid terrain types.
 - Reconverted all maps to deal with lingering issues from v0.24.1-alpha.
