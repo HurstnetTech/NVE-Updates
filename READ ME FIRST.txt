@@ -1,4 +1,4 @@
-How To Use The Nexus Viewing Engine 2.0 (NVE)
+How To Use The Nexus Viewing Engine 2.0 (NVE 2.0)
 ---------------------------------------------
 Please note: The NVE program is being tested.  There will be bugs.  Strange things will happen.  If you don't tell us about them, we wont know!  Please report any bugs you find at https://hurstnet.tech/Helpdesk.  Thanks.
 
@@ -17,7 +17,7 @@ If you receive any warnings relating to the NVE please add the program to your a
 FIRST TIME SETUP
 ----------------
 The first time you attempt to launch the program by running the file called NVE 2.0.exe will be detected by the program and offer guidance in setting up your positions. You can select "Import from Old NVE" or "Setup New NVE". If you used the previous version of the NVE click "Import from Old NVE" to port across your data, otherwise click "Setup New NVE". 
-Either option will take you to screen asking for your account number and a verification code. Your account number can be found near the top of any of your turns or in any email containing your PDFs. Your verification code is a unique 6-digit code. If you do not know your verification code please email contact@madcentral.com to find out. Do not share this code with anyone as doing so will allow them to download any of your positions and send orders for them.
+Either option will take you to screen asking for your account number and a verification code. Your account number can be found near the top of any of your turns or in any email containing your PDFs. Your verification code is a unique 6-digit code. If you do not know your verification code please email dungeonworld@madcentral.co.uk to find out. Do not share this code with anyone as doing so will allow them to download any of your positions and send orders for them.
 If importing from the old NVE you will now be prompted to give the program the path to your instance of the old NVE. This should be the folder containing "NVE v6-3.exe". Clicking the folder icon will open a dialog allowing you to navigate through your file system.
 For either option you will then be shown a progress bar while the program prepares data for your use of the NVE. Please be patient and allow it to finish. Importing from the old NVE may take longer while it converts your old data.
 Everything is then complete! You're ready to use the new NVE to view turns and send orders.
@@ -29,9 +29,19 @@ Run the file called NVE 2.0.exe and you will see the opening screen which allows
 
 Download NVE.  This will directly download your turn from the Madhouse servers. This functionality is disabled for unverified positions.
 View NVE. This will open your turn to be viewed and orders written.
-Download PDF.  NOT CURRENTLY ACTIVE.  This will download a PDF of your turn from the Madhouse servers.
-View PDF.  NOT CURRENTLY ACTIVE.  This will open the PDF for viewing.  
+Download PDF. This will download a PDF of your turn from the Madhouse servers and store it locally within the NVE's directory.
+View PDF. This will open the PDF for viewing using your computer's default PDF reader (this will be your default browser if none is installed).  
 Move Up & Move Down.  These allow you to re-order your positions.
+
+
+PROGRAM SCALING
+---------------
+The main GUI was designed for a minimum size of 1920x1080. However, it may not fully fit on monitors of this resolution due to the taskbar or windows app scaling settings. If this is the case you can change the scale of the entire program with the 'Window Scaling' option in the Settings menu located in the top right of the main menu. If you cannot access the settings, it may be manually changed by opening "Settings.txt" in the location you installed the NVE to and changing the second line from "scaling: 100% (Recommended)" to "scaling: Custom 80" and save the file. 80 can be changed for any percentage desired where 80 refers to 80% of the original size. The program will need to be reopened for any changes to take effect.
+
+
+MODIFYING FILES
+---------------
+Please do not tamper with or modify any of the files used by the NVE (with the exception of settings as described in PROGRAM SCALING). The majority are encrypted and modifications will lead to bugs. The program will likely crash and your data may be unrecoverable. Attempting to copy and paste someone else's data (such as map files) over to your NVE WILL NOT work.
 
 
 USING THE NVE MAIN SCREEN

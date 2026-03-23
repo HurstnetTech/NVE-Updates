@@ -1,3 +1,17 @@
+-----v1.0-----
+- Added splash screen during initial program load.
+- The entire Bereny overland map will now be loaded.
+- The program will now start in offline mode if it fails to connect to the server.
+- PDFs can now be downloaded from the server.
+- Added progress text for turn downloading.
+- Multiple downloads may now be queued.
+- Added safeguard against downloads being interrupted part way through.
+- PDFs can now be opened from within the program.
+- Converted Items.txt and Creatures.txt to json to deal with formatting issues.
+- Fixed crash caused by incorrect item conversion from old NVE.
+- Added encryption to a number of data files.
+- Updated READ ME FIRST.
+
 --v0.27-beta--
 - Added account verification.
 - New positions on a verified account will now automatically appear in the NVE.
