@@ -1,3 +1,6 @@
+-----v1.01-----
+- Separated checks for NVE and PDF files.
+
 -----v1.0-----
 - Added splash screen during initial program load.
 - The entire Bereny overland map will now be loaded.
