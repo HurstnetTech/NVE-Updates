@@ -1,3 +1,6 @@
+----v1.02.1----
+- Made download logic more robust.
+
 -----v1.02-----
 - Expanded search for PDF files.
 - Fixed offline server check.
