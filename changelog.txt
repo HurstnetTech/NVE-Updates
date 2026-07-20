@@ -1,11 +1,24 @@
-----v1.02.1----
+-----v1.1-----
+- Added OEP sub-program.
+- The NVE and OEP sub-programs can be swapped between from the main menu.
+- The program will now keep a backup of data from the previous turn.
+- Positions no longer on your account will now automatically be removed.
+- The program now differentiates between failure to connect to the server and the game actively running.
+- Offline/verification/update checks now occur prior to the program launching.
+- The program now starts in offline mode if launching with an out of date version.
+- Encrypted additional data files.
+- Fixed error with PDF downloads.
+- NVE files can now be redownloaded multiple times in a turn.
+- Fixed issue with the created item data file when setting up a new instance of the NVE.
+
+----v1.0.3----
 - Made download logic more robust.
 
------v1.02-----
+----v1.0.2----
 - Expanded search for PDF files.
 - Fixed offline server check.
 
------v1.01-----
+----v1.0.1----
 - Separated checks for NVE and PDF files.
 
 -----v1.0-----
