@@ -1,3 +1,6 @@
+----v1.1.1----
+- Fixed bug with checking position numbers on new turn.
+
 -----v1.1-----
 - Added OEP sub-program.
 - The NVE and OEP sub-programs can be swapped between from the main menu.
