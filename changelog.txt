@@ -1,3 +1,11 @@
+----v1.1.4----
+- Added terrain library.
+- Added progress bar for update downloads.
+- Map tiles now display a tooltip if a description has been recorded for that terrain type.
+- Selecting a creature you don't own now once again opens their data entry if they have been viewed.
+- Fixed issue where investigate orders would only record the first line of item descriptions.
+- Fixed crash caused by attempting to swap to a position with a new turn available from within a loaded position.
+
 ----v1.1.3----
 - Added fix for alternate PDF file names.
 
