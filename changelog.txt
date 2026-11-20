@@ -1,3 +1,8 @@
+----v1.1.5----
+- Added check to ensure update files are downloaded correctly.
+- Added recovery program for redownloading latest program version.
+- Fixed crash caused by positions with no characters.
+
 ----v1.1.4----
 - Added terrain library.
 - Added progress bar for update downloads.
